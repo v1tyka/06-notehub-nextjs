@@ -2,7 +2,7 @@
 
 import { HydrationBoundary, useQuery } from "@tanstack/react-query";
 import { useParams } from "next/navigation";
-import css from "./NoteDetails.client.module.css";
+import css from "./NoteDetails.module.css";
 import { fetchNoteById } from "@/lib/api";
 import type { DehydratedState } from "@tanstack/react-query";
 
